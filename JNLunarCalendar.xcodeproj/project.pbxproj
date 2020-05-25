@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D143EBCB247BA05E00AF6598 /* CalendarIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = D143EBCA247BA05E00AF6598 /* CalendarIconView.m */; };
 		E625B78E1E2CA79D00A65C75 /* JNCalendarSelectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E625B78D1E2CA79D00A65C75 /* JNCalendarSelectManager.m */; };
 		E64CBAFD1E36EDCC008FACE5 /* JNEventManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E64CBAFC1E36EDCC008FACE5 /* JNEventManger.m */; };
 		E65DF1A21E25FB15001070C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E65DF1A11E25FB15001070C8 /* AppDelegate.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D143EBC9247BA05E00AF6598 /* CalendarIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarIconView.h; sourceTree = "<group>"; };
+		D143EBCA247BA05E00AF6598 /* CalendarIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarIconView.m; sourceTree = "<group>"; };
 		E625B78C1E2CA79D00A65C75 /* JNCalendarSelectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNCalendarSelectManager.h; sourceTree = "<group>"; };
 		E625B78D1E2CA79D00A65C75 /* JNCalendarSelectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNCalendarSelectManager.m; sourceTree = "<group>"; };
 		E64CBAFB1E36EDCC008FACE5 /* JNEventManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNEventManger.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 		E65DF19F1E25FB15001070C8 /* JNLunarCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				D143EBC9247BA05E00AF6598 /* CalendarIconView.h */,
+				D143EBCA247BA05E00AF6598 /* CalendarIconView.m */,
 				E65DF1D01E25FB2E001070C8 /* LunarCore */,
 				E65DF1A01E25FB15001070C8 /* AppDelegate.h */,
 				E65DF1A11E25FB15001070C8 /* AppDelegate.m */,
@@ -152,6 +157,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -184,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E65DF1D31E25FB2E001070C8 /* LunarCore.m in Sources */,
+				D143EBCB247BA05E00AF6598 /* CalendarIconView.m in Sources */,
 				E65DF1D71E25FCE5001070C8 /* JNPopViewController.m in Sources */,
 				E65DF1A51E25FB15001070C8 /* main.m in Sources */,
 				E625B78E1E2CA79D00A65C75 /* JNCalendarSelectManager.m in Sources */,
